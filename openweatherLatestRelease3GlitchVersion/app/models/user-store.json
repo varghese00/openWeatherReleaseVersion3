@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Poonam",
+      "lastName": "Jaswal",
+      "email": "varghese00@gmail.com",
+      "password": "0000",
+      "id": "424263b0-10cd-11ec-ae4c-93b1773b1b0d"
+    },
+    {
+      "firstName": "Varghese",
+      "lastName": "Joseph",
+      "email": "varghese00@gmail.com",
+      "password": "0000",
+      "id": "def30d90-10d2-11ec-b2b6-af9a5935a1df"
+    },
+    {
+      "firstName": "Varghese",
+      "lastName": "Joseph",
+      "email": "poonamjaswal13@gmail.com",
+      "password": "0000",
+      "id": "220fafc0-10d3-11ec-b555-bb4ff9674d3d"
+    },
+    {
+      "firstName": "Poonam",
+      "lastName": "Jaswal",
+      "email": "varghese00@gmail.com",
+      "password": "0000",
+      "id": "f9347cf0-10e3-11ec-ba06-4de37a74b004"
+    },
+    {
+      "firstName": "Poonam",
+      "lastName": "Jaswal",
+      "email": "varghese00@gmail.com",
+      "password": "0000",
+      "id": "1101c7c0-10e4-11ec-ba06-4de37a74b004"
+    }
+  ]
+}

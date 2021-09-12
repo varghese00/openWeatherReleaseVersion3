@@ -1,0 +1,92 @@
+<section class="ui segment">
+  <div class="ui five doubling inverted cards">
+
+    <div class="card">
+      <div class="content">
+        <i class="right floated huge marker violet icon"></i>
+        <h3 class="ui header">{{station.name}}</h3>
+        <div class="description">
+          <div class="ui text">Latitude: {{station.latitude}} </div>
+          <div class="ui text">Longitude: {{station.longitude}} </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <i class="{{stationSummary.weatherIcon}}"></i>
+        <h3 class="ui header">Weather</h3>
+        <div class="description">
+          <div class="ui text"> {{stationSummary.weatherCondition}} </div>
+          <div class="ui text"> </div>
+        </div>
+        <div class="description ui two column grid">
+          <div class="column">
+            <div class="ui text">
+              <div class="ui text"> </div>
+              <div class="ui text"> </div>
+              <div class="ui text"> </div>
+            </div>
+          </div>
+          <div class="column">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <i class="right floated huge temperature low blue icon"></i>
+        <h3 class="ui header">Temp</h3>
+
+        <div class="description ui one column grid">
+          <div class="column">
+          <div class="ui text">Temp:{{stationSummary.lastReading.temperature}} °C</div>
+          <div class="ui text">Faren:{{stationSummary.celsiusToFarenheit}} °F</div>
+              <div class="ui text"> Max:{{stationSummary.maxTemperature}} °C </div>
+              <div class="ui text"> Min:{{stationSummary.minTemperature}} °C</div>
+            </div>
+          <div class="column">
+            <i class="{{stationSummary.temperatureTrend}}"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <i class="right floated huge wind green icon"></i>
+        <h3 class="ui header">Wind</h3>
+       
+        <div class="description ui one column grid">
+          <div class="column">
+               <div class="ui text">Beaufort:{{stationSummary.beaufort}} bft</div>
+              <div class="ui text"> Feels like {{stationSummary.windChill}} °C </div>
+              <div class="ui text"> Max: {{stationSummary.maxWindSpeed}} km/hr </div>
+              <div class="ui text"> Min: {{stationSummary.minWindSpeed}} km/hr </div>
+              <div class="ui text">WindDirection:{{stationSummary.windDirection}} </div>
+            {{stationSummary.windType}}
+          </div>
+           <div class="column">
+               <i class="{{stationSummary.windSpeedTrend}}"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <i class="right floated huge centos orange icon"></i>
+        <h3 class="ui header">Pressure</h3>
+        <div class="description">
+          <div class="ui text">Pressure:{{stationSummary.lastReading.pressure}}hpa</div>
+        </div>
+        <div class="description ui one column grid">
+          <div class="column">
+              <div class="ui text"> Max: {{stationSummary.maxPressure}}</div>
+              <div class="ui text"> Min: {{stationSummary.minPressure}} </div>
+          </div>
+          <div class="column">
+             <i class="{{stationSummary.pressureTrend}}"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,104 @@
+{
+  "stationCollection": [
+    {
+      "id": "0d058210-0f5e-11ec-a385-e11cb041f938",
+      "userid": "4f48bfb0-0654-11ec-abdb-2b4625e04795",
+      "name": "Cork",
+      "latitude": "",
+      "longitude": "",
+      "readings": [
+        {
+          "id": "14476b10-0f5e-11ec-a385-e11cb041f938",
+          "code": "",
+          "temperature": "7.7",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": "",
+          "time": "Monday, September 6, 2021 10:02 PM"
+        }
+      ],
+      "lastStationReading": {
+        "id": "14476b10-0f5e-11ec-a385-e11cb041f938",
+        "code": "",
+        "temperature": "7.7",
+        "windSpeed": "",
+        "windDirection": "",
+        "pressure": "",
+        "time": "Monday, September 6, 2021 10:02 PM"
+      },
+      "lastStationTemperatureTrend": "large red arrow horizontal icon",
+      "lastStationPressureTrend": "large red arrow horizontal icon",
+      "lastStationWindTrend": "large red arrow horizontal icon"
+    },
+    {
+      "id": "ba1994c0-0fa2-11ec-86cb-91d1273a3d00",
+      "userid": "8d9ec4b0-0efd-11ec-9ecb-55fd1f73a603",
+      "name": "Bahrain",
+      "latitude": "11",
+      "longitude": "11",
+      "readings": [
+        {
+          "id": "ef1c9870-0fa2-11ec-86cb-91d1273a3d00",
+          "code": "101",
+          "temperature": "36",
+          "windSpeed": "235",
+          "windDirection": "56",
+          "pressure": "898",
+          "time": "Tuesday, September 7, 2021 6:15 AM"
+        },
+        {
+          "id": "fe4fe450-0fa2-11ec-86cb-91d1273a3d00",
+          "code": "102",
+          "temperature": "37",
+          "windSpeed": "5454",
+          "windDirection": "6656",
+          "pressure": "7676587",
+          "time": "Tuesday, September 7, 2021 6:15 AM"
+        }
+      ]
+    },
+    {
+      "id": "d1cfd520-0fa2-11ec-86cb-91d1273a3d00",
+      "userid": "8d9ec4b0-0efd-11ec-9ecb-55fd1f73a603",
+      "name": "India",
+      "latitude": "12",
+      "longitude": "12",
+      "readings": [
+        {
+          "id": "fe59ab80-0fa6-11ec-bb18-59ea1ba69db5",
+          "code": "100",
+          "temperature": "545",
+          "windSpeed": "56675",
+          "windDirection": "3425",
+          "pressure": "777",
+          "time": "Tuesday, September 7, 2021 6:44 AM"
+        }
+      ]
+    },
+    {
+      "id": "fee3a6e0-10b5-11ec-83f8-2fefafb2913b",
+      "userid": "d684dfc0-10b5-11ec-83f8-2fefafb2913b",
+      "name": "Kerala",
+      "latitude": "12",
+      "longitude": "11",
+      "readings": [],
+      "lastStationReading": null
+    },
+    {
+      "id": "8d7b0af0-10bc-11ec-aefb-55e7c9b7a7a1",
+      "userid": "66d42d00-10bc-11ec-aefb-55e7c9b7a7a1",
+      "name": "Cork",
+      "latitude": "",
+      "longitude": "",
+      "readings": []
+    },
+    {
+      "id": "4c11d560-10cd-11ec-ae4c-93b1773b1b0d",
+      "userid": "424263b0-10cd-11ec-ae4c-93b1773b1b0d",
+      "name": "Waterford",
+      "latitude": "",
+      "longitude": "",
+      "readings": []
+    }
+  ]
+}

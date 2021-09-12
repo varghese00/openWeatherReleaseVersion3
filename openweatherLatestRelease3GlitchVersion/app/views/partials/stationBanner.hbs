@@ -1,0 +1,112 @@
+
+<section class="ui segment">
+    <section class="ui stacked segment">
+    <div class="ui five doubling inverted cards">
+
+  <div class="card">
+  <div class="content">
+    <i class="right floated huge marker violet icon"></i>
+    <h3 class="ui header">{{name}}</h3>
+    <div class="description">
+      <div class="ui text"> </div>
+      <div class="ui text"> </div>
+    </div>
+    <div class="description ui two column grid">
+      <div class="column">
+        <div class="ui text">
+          <div class="ui text"> Lat:{{latitude}} </div>
+          <div class="ui text"> Lng: {{longitude}} </div>
+          <div class="ui text"> </div>
+        </div>
+      </div>
+      <div class="column">
+                      </div>
+    </div>
+  </div>
+</div>
+  <div class="card">
+  <div class="content">  
+      <i class="{{lastStationWeatherIcon}}"></i>
+    <h3 class="ui header">Weather </h3>
+    <div class="description">
+      <div class="ui text"></div>
+      <div class="ui text"> </div>
+    </div>
+    <div class="description ui two column grid">
+      <div class="column">
+        <div class="ui text">
+          <div class="ui text"> </div>
+          <div class="ui text"> </div>
+          <div class="ui text"> </div>
+        </div>
+      </div>
+      <div class="column">
+                      </div>
+    </div>
+  </div>
+</div>
+  <div class="card">
+  <div class="content">
+    <i class="right floated huge temperature low blue icon"></i>
+    <h3 class="ui header">Temp</h3>
+    <div class="description">
+      <div class="ui text"> {{lastStationReading.temperature}} °C</div>
+    </div>
+    <div class="description ui two column grid">
+      <div class="column">
+        <div class="ui text">
+      <i class="{{lastStationTemperatureTrend}}"></i>
+
+          <div class="ui text"> Max: 0.0</div>
+          <div class="ui text"> Min: 0.0</div>
+        </div>
+      </div>
+      <div class="column">
+                      </div>
+    </div>
+  </div>
+</div>
+  <div class="card">
+  <div class="content">
+    <i class="right floated huge wind green icon"></i>
+    <h3 class="ui header">Wind</h3>
+    <div class="description">
+      <div class="ui text">{{lastStationReading.windSpeed}}km/hr</div>
+      <div class="ui text"> </div>
+    </div>
+    <div class="description ui two column grid">
+      <div class="column">
+        <div class="ui text">
+          <div class="ui text"> Feels like 0.0</div>
+          <div class="ui text"> Max: 0.0</div>
+          <div class="ui text"> Min: 0.0</div>
+                <i class="{{lastStationWindTrend}}"></i>
+
+        </div>
+      </div>
+      <div class="column">
+                      </div>
+    </div>
+  </div>
+</div>
+  <div class="card">
+  <div class="content">
+    <i class="right floated huge centos orange icon"></i>
+    <h3 class="ui header">Pressure</h3>
+    <div class="description">
+      <div class="ui text"> {{lastStationReading.pressure}}hpa</div>
+      <div class="ui text"> </div>
+    </div>
+    <div class="description ui two column grid">
+      <div class="column">
+        <div class="ui text">
+          <div class="ui text"> Max: 0.0</div>
+          <div class="ui text"> Min: 0.0</div>
+          <i class="{{lastStationPressureTrend}}"></i>
+        </div>
+      </div>
+    </div>
+  </div>   
+
+  </section>
+  

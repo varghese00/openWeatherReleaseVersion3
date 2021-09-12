@@ -1,0 +1,45 @@
+{{> menu}}
+<div class = "stacked segment table">
+  <table class="ui stacked table">
+<th>User Details</th>
+    <tbody>
+      <tr>
+      <td>First Name: {{user.firstName}}</td>
+      </tr>
+      <tr>
+        <td>Second Name: {{user.lastName}}</td>
+      </tr>
+       <tr>
+        <td>Email: {{user.email}}</td>
+      </tr>
+      <tr>
+        <td>Password: {{user.password}}</td>
+      </tr>
+
+    </tbody>
+</table>
+</div>
+
+
+<form class="ui stacked segment form" action="/editUser/{{user.id}}" method="post">
+  <h3 class="ui header">Update User</h3>
+  <div class="two fields">
+    <div class="field">
+      <label>First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName" >
+    </div>
+    <div class="field">
+      <label>Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName" >
+    </div>
+  </div>
+  <div class="field">
+    <label>Email</label>
+    <input placeholder="Email" type="text" name="email" >
+  </div>
+  <div class="field">
+    <label>Password</label>
+    <input type="password" name="password" >
+  </div>
+  <button class="ui blue submit button">Update user</button>
+</form>
